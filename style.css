@@ -1,11 +1,14 @@
 @font-face {
     font-family: Roboto;
-    src: url(../fuel/assets/fonts/ofont.ru_Roboto.ttf);
+    src: url(../assets/fonts/ofont.ru_Roboto.ttf);
+    font-weight: 400;
+    font-size: 18px;
 }
-* {
+*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: Roboto;
 }
 html {
     scroll-behavior: smooth;
