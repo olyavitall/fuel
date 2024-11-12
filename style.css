@@ -21,23 +21,25 @@ body {
     max-width: 1243px;
     margin-left: auto;
     margin-right: auto;
-    padding: 0 7px;
 }
 .wrapper_header {
     margin-top: 45px;
-    min-width: 1284px;
+    max-width: 1284px;
+    margin-left: auto;
+    margin-right: auto;
     display: flex;
     flex-direction: row;
     gap: 55px;
 }
 .navigation {
     margin-top: 1px;
-    min-width: 819px;
     background-color: #004EA1;
 }
 .navigation_list {
     display: flex;
     flex-direction: row;
+    min-width: 819px;
+    min-height: 74px;
 }
 .item {
     list-style: none;
